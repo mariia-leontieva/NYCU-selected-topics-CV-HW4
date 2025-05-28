@@ -15,7 +15,7 @@ To solve this problem, I used PromptIR network.<br>
 
 
 ## Results
-The best results were yielded by using Adam with LR=2e-5 and Cosine Annealing LR Scheduler. Training and validation curves of this model over 45 epochs can be seen below.<br>
+The best results were yielded by using Adam with LR=2e-5 and Cosine Annealing LR Scheduler. Training and validation curves of this model over 77 epochs can be seen below.<br>
 <br>
 <img width="425" alt="image" src="https://github.com/user-attachments/assets/1a93d46e-8746-4fcc-9510-a78a25b3572c" />
 
@@ -23,7 +23,7 @@ The best results were yielded by using Adam with LR=2e-5 and Cosine Annealing LR
 
 ## Performance
 Performance was evaluated using [CodaBench competition](https://www.codabench.org/competitions/7834/?secret_key=3ee0f511-d399-4221-b897-98cb11701cb6).<br>
-According to the results of experiments, the best mask_threshold for prediction during the test stage is 0.5.
+According to the results of experiments, the best prediction during the test stage is 27.51.
 
 <img width="865" alt="image" src="https://github.com/user-attachments/assets/241aad56-493a-4417-bae8-64e4dd62d3ae" />
 
